@@ -8,6 +8,5 @@ Site statique (HTML/CSS/JS, un seul fichier + images) publié avec GitHub Pages.
 3. Settings → Pages → Source : *Deploy from a branch*, branche `main`, dossier `/ (root)`.
 4. Le site sera disponible sur https://corgi-coder99.github.io/
 
-## Ajouter votre photo
-Placez `assets/photo.jpg`, puis dans `index.html` remplacez `<span>HV</span>` par
-`<img src="assets/photo.jpg" alt="Huu Dat VU">`.
+## Changer la photo
+Remplacez `assets/photo.jpg` (image carrée, 600×600 conseillé).
