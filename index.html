@@ -165,6 +165,14 @@ footer{border-top:1px solid var(--line);padding:24px 0;color:#777;font-size:.85r
 
   <div class="track" id="track">
     <article class="card">
+      <span class="thumb"><img src="assets/pricing.jpg" alt="Tableau de bord du système de prix par IA : indicateurs, courbe d'élasticité-prix et carte" loading="lazy"></span>
+      <span class="tag" data-i18n="tag_pricing">IA · E-commerce · Data science</span>
+      <h3 data-i18n="p5_t">Intent Pricing Optimizer : prix par IA pour l'UE/UK</h3>
+      <p data-i18n="p5_d">Lit les avis clients, estime la réaction de la demande au prix (LightGBM) et recommande un prix. Tableau de bord EN/FR, API REST, pipeline bronze/silver/gold et données de marché réelles de 8 pays. Élasticité vérifiée sur de vraies transactions (−2,27 réel contre −2,44 simulé) ; le modèle de conversion reste entraîné sur des sessions simulées.</p>
+      <div class="tech">Python, LightGBM, FastAPI, Streamlit, Plotly</div>
+    </article>
+
+    <article class="card">
       <a class="thumb" href="https://corgi-coder99.github.io/Online-Retail-Insights/" target="_blank" rel="noopener"><img src="assets/retail.jpg" alt="Online Retail II report" loading="lazy"></a>
       <span class="tag" data-i18n="tag_retail">Retail · données réelles</span>
       <h3 data-i18n="p1_t">Online Retail II : insights &amp; prévisions</h3>
@@ -233,6 +241,9 @@ const EN={
  sk_biz_t:"Business analysis",sk_biz:"RFM, cohorts, LTV, ROAS, margins, backtested forecasts",
  sk_app_t:"Apps &amp; games",sk_app:"FastAPI, SQLite, Git, Godot (GDScript)",
  proj_title:"Projects",proj_sub:"Swipe or use the arrows to browse my work.",
+ tag_pricing:"AI · E-commerce · Data science",
+ p5_t:"Intent Pricing Optimizer: AI pricing for the EU/UK",
+ p5_d:"Reads customer reviews, estimates how demand reacts to price (LightGBM) and recommends a price. English/French dashboard, REST API, bronze/silver/gold pipeline and real market data from 8 countries. Price sensitivity checked against real transactions (−2.27 real vs −2.44 simulated); the conversion model is still trained on simulated sessions.",
  tag_retail:"Retail · real data",
  p1_t:"Online Retail II: insights &amp; forecasts",
  p1_d:"Reproducible pipeline on ~1 million real transaction lines (UCI): logged cleaning, RFM segments, cohorts, LTV, baskets, and forecasts whose past accuracy is measured by backtesting.",
